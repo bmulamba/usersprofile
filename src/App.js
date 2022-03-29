@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import UserCard from './Components/UserCard';
+import SearchUser from './Components/SearchUser';
 
 export default class App extends Component {
   constructor(props){
@@ -18,20 +19,24 @@ export default class App extends Component {
   render() {
     // console.log(this.state.users);
     return (
-      <div className='container'>
-        {
-          this.state.users.map(user => {
-            return(
-              <div key = {user.id} >
-                <UserCard 
-                  userId = {user.id}
-                  name = {user.name}
-                  email = {user.email}
-                />
-               </div>
-            )
-          })
-        }
+      <div className='app'>
+           <SearchUser />
+        <div className='container'>
+          {
+            
+            this.state.users.map(user => {
+              return(
+                <div key = {user.id} >
+                  <UserCard 
+                    userId = {user.id}
+                    name = {user.name}
+                    email = {user.email}
+                  />
+                </div>
+              )
+            })
+          }
+        </div>
       </div>
     )
   }

@@ -13,7 +13,6 @@ export default function UserCard(props) {
             <span>{props.name}</span><br/>
             <span>{props.email}</span>
         </div>
-        
     </div>
 
   )
