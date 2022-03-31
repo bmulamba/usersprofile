@@ -7,7 +7,7 @@ export const UserDetail = (props) => {
     <div>
     <div>UserDetail</div>
     <button>
-      <Link to={'/'}>
+      <Link to={'/usersprofile/'}>
         Home
       </Link>
     </button>

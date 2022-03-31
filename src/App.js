@@ -38,8 +38,8 @@ export default class App extends Component {
       <div className='app'>
         <SearchUser searchChange = {this.handleChange}/>
         <Routes>
-          <Route path='/' exact element = {<UserList listUsers = {searchUser}/>}/>
-          <Route path='/:id' element = {<UserDetail/> } /> 
+          <Route path='/usersprofile' exact element = {<UserList listUsers = {searchUser}/>}/>
+          <Route path='/usersprofile/:id' element = {<UserDetail/> } /> 
         </Routes>
       </div>
     )

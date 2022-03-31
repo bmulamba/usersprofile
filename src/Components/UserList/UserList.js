@@ -10,7 +10,7 @@ export const UserList = (props) => {
             props.listUsers.map(user => {
                 return (
                     <div key={user.id}>
-                    <Link to={`/${user.id}`} className="links">
+                    <Link to={`/usersprofile/${user.id}`} className="links">
                         <CardUser userdetail = {user} />
                     </Link>
                     </div>
