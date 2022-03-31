@@ -1,0 +1,18 @@
+.card {
+    width: 330px;
+    height: 370px;
+    border: 1px solid rgb(197, 197, 197);
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 4px 6px solid rgba(100, 100, 100, 0.8);
+}
+
+.card:hover {
+    transform: scale(1.01);
+    transition: all 500ms ease;
+}
+
+.card p {
+    padding-top: .5rem;
+}

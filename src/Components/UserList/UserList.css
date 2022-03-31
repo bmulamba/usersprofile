@@ -1,0 +1,12 @@
+
+.listCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+   
+}
+
+.listCard .links {
+    text-decoration: none;
+    color: black;
+}

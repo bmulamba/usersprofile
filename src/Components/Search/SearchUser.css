@@ -1,0 +1,13 @@
+form {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-user {
+    width: 98%;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 22px;
+}

@@ -1,55 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background: #e7ebea;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(240, 240, 240);
 }
 
 .app {
-  width: 95%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 2%;
-}
-
-.container-card {
-  flex: 1;
-  margin: 10px;
-  /* width: 355px; */
-  height: 400px;
-  background-color: white;
-  padding: 10px;
-
-}
-
-.card-body {
-  text-align: center;
-  padding: 10px;
-}
-
-.card-body span {
-  margin-top: 25px;
-  font-weight: bold;
-}
-
-.form-search {
-  width: 90%;
-  height: 40px;
-  border: 1px solid rgb(196, 196, 196);
-  border-radius: 5px;
-  padding: 0 1rem;
-  font-size: 26px;
-}
-
-.form-user {
-  padding-top: 2rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: 4rem 0;
 }
