@@ -5,9 +5,10 @@ form {
     margin-bottom: 2rem;
 }
 
-.form-user {
-    width: 98%;
-    height: 35px;
+.form-user-input {
+    width: 68%;
+    height: 55px;
     padding: 0 10px;
-    font-size: 22px;
+    font-size: 28px;
+    border-radius: 5px;
 }

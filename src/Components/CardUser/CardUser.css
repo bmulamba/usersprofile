@@ -1,11 +1,18 @@
 .card {
-    width: 330px;
-    height: 370px;
+    width: 370px;
+    height: 390px;
     border: 1px solid rgb(197, 197, 197);
-    margin: 10px;
+    margin: 1px;
     text-align: center;
     background-color: white;
     box-shadow: 2px 2px 4px 6px solid rgba(100, 100, 100, 0.8);
+}
+
+.card-bottom {
+    height: 85px;
+    padding: 10px;
+    background-color: rgb(221, 225, 223);
+    font-weight: bold;
 }
 
 .card:hover {
