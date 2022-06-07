@@ -14,7 +14,7 @@ export default class UserList extends Component {
     let users = this.props.listUsers;
     
     let user = users.filter(u => u.id = id)
-    console.log(user[0]);
+    // console.log(user[0]);
   }
   render(){
     return (

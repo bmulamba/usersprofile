@@ -11,7 +11,6 @@ export default class App extends Component {
     super(props);
     this.state = {
       users: [],
-      user : [],
       searchbox: "",
     };
   }
@@ -38,10 +37,9 @@ export default class App extends Component {
         <div className="header">
           <h1>USERS PROFILS</h1>
         </div>
-
+        <div className="search-user">
         <SearchUser searchChange={this.handleChange} />
-
-        
+        </div>
         <Routes>
           <Route
             path="/usersprofile"
@@ -49,7 +47,7 @@ export default class App extends Component {
           />
           <Route 
             path="/usersprofile/:id" 
-            element={< Suspense fallback={<h1> Loadng ...</h1>}> <UserDetail /> </Suspense>} />
+            element={< Suspense fallback={<h1> Loadng ...</h1>}> <UserDetail users={this.state.users} /> </Suspense>} />
         </Routes>
       </div>
     );

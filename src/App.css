@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(234, 234, 236);
+    background-color: rgb(221, 226, 227);
 }
 
 .app {
@@ -19,4 +19,9 @@ body {
     width: 100%;
     text-align: center;
     padding: 1rem 0 3rem 0 ;
+}
+
+.search-user {
+    width: 90%;
+    margin: 0 auto;
 }

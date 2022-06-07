@@ -1,9 +1,10 @@
 
 .listCard {
+    width: 90%;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-   
+    gap: .8rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr))   
 }
 
 .listCard .links {

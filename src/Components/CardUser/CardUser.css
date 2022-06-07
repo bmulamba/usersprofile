@@ -1,5 +1,4 @@
-.card {
-    width: 370px;
+[class^= "card"] {
     height: 390px;
     border: 1px solid rgb(197, 197, 197);
     margin: 1px;
